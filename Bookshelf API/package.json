@@ -1,0 +1,25 @@
+{
+  "name": "Bookshelf API",
+  "version": "1.0.0",
+  "description": "A bookshelf is a shelf on which you keep books in API mode.",
+  "main": "./src/server.js",
+  "scripts": {
+    "test": "jest", 
+    "start-dev": "nodemon ./src/server.js", 
+    "start-prod": "export NODE_ENV=production && node ./src/server.js"
+  },
+  "keywords": [
+    "bookshelf",
+    "api",
+    "dicoding-submission"
+  ],
+  "author": "Michael Abraham Chan Tulenan",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "@hapi/hapi": "^20.1.4",
+    "nanoid": "^3.1.23"
+  }
+}

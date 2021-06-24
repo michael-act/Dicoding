@@ -1,0 +1,20 @@
+{
+  "name": "Notes App Backend",
+  "version": "1.0.0",
+  "description": "Aplikasi back-end pertama gua nih!",
+  "main": "./src/server.js",
+  "scripts": {
+    "test": "jest",
+    "start-dev": "nodemon ./src/server.js",
+    "start-prod": "export NODE_ENV=production && node ./src/server.js"
+  },
+  "author": "Michael Abraham Chan Tulenan",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/hapi": "^20.1.4",
+    "nanoid": "^3.1.23"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
